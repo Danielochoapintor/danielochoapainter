@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #b7e4c7; /* Color de fondo para toda la página */
     font-family: "Roboto", sans-serif; /* Fuente para el texto */
 }
 
@@ -8,100 +8,54 @@ body {
 header {
     background-color: #2d6a4f; /* Fondo verde oscuro */
     color: #a3b18a; /* Color del texto del título */
-    padding: 20px;
+    padding: 0; /* Eliminamos el espacio de relleno */
+    text-align: center; /* Centramos el texto */
 }
 
 h1 {
     font-family: "Cormorant Garamond", serif; /* Fuente para el título */
+    font-size: 48px; /* Tamaño de fuente más grande */
+    margin: 0; /* Eliminamos el margen para que el título se pegue a los bordes */
+    padding: 20px; /* Añadimos un poco de espacio alrededor del título */
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #a3b18a; /* Color del texto de los enlaces */
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #40916c; /* Color del texto de los enlaces al pasar el cursor */
-}
-
-/* Estilos de las secciones */
-main {
+/* Estilos de la parte inferior de la página */
+footer {
+    background-color: transparent; /* Fondo transparente */
+    color: rgba(45, 106, 79, 0.8); /* Color del texto con opacidad */
     padding: 20px;
+    text-align: center; /* Centramos el texto */
 }
 
-.gratitude {
-    font-size: 18px;
+/* Estilos de las obras de arte */
+.artwork {
+    text-align: center; /* Centramos el contenido */
+    margin-top: 50px; /* Añadimos un margen superior para separarlo del contenido anterior */
 }
 
-/* Estilos de las imágenes */
-.image-container {
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-}
-
-.image-container img {
+.artwork img {
     max-width: 100%;
     height: auto;
+    opacity: 0.8; /* Opacidad reducida */
     transition: opacity 0.3s ease-in-out;
 }
 
-.image-container:hover img {
-    opacity: 0.8; /* Opacidad reducida al pasar el cursor */
+.artwork img:hover {
+    opacity: 1; /* Opacidad completa al pasar el cursor */
 }
 
-.image-container:hover .sold-out-overlay {
-    display: block; /* Mostrar la superposición de "Sould Out" al pasar el cursor */
+.artwork-description {
+    margin-top: 20px; /* Espacio entre la imagen y la descripción */
 }
 
-.sold-out-overlay {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo opaco */
-    padding: 10px;
-    border-radius: 5px;
+.artwork-description h2 {
+    color: #2d6a4f; /* Color del título */
 }
 
-.sold-out-overlay p {
-    margin: 0;
+.artwork-description p {
+    color: rgba(45, 106, 79, 0.8); /* Color del texto con opacidad */
 }
 
-/* Estilos del pie de página */
-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #2d6a4f;
-    color: #a3b18a;
-}
-
-blockquote {
-    font-style: italic;
-    margin-top: 20px;
-}
-
-blockquote::before {
-    content: open-quote;
-}
-
-blockquote::after {
-    content: close-quote;
-}
-
-/* Estilos específicos para la página de inicio */
-#home {
-    margin-top: 20px;
+.artwork-description a {
+    color: #40916c; /* Color del enlace */
 }
