@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    font-family: "Roboto", sans-serif; /* Fuente para el texto */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #2d6a4f; /* Fondo verde oscuro */
+    color: #a3b18a; /* Color del texto del título */
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif; /* Fuente para el título */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #a3b18a; /* Color del texto de los enlaces */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #40916c; /* Color del texto de los enlaces al pasar el cursor */
+}
+
+/* Estilos de las secciones */
+main {
+    padding: 20px;
+}
+
+.gratitude {
+    font-size: 18px;
+}
+
+/* Estilos de las imágenes */
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+    opacity: 0.8; /* Opacidad reducida al pasar el cursor */
+}
+
+.image-container:hover .sold-out-overlay {
+    display: block; /* Mostrar la superposición de "Sould Out" al pasar el cursor */
+}
+
+.sold-out-overlay {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo opaco */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sold-out-overlay p {
+    margin: 0;
+}
+
+/* Estilos del pie de página */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #2d6a4f;
+    color: #a3b18a;
+}
+
+blockquote {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+/* Estilos específicos para la página de inicio */
+#home {
+    margin-top: 20px;
+}
