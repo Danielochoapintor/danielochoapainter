@@ -1,23 +1,18 @@
-/* Estilos generales */
-body {
-    background-color: #eef6f1; /* Color de fondo ligeramente desaturado */
-    font-family: "Roboto", sans-serif; /* Fuente para el texto */
-    color: #2d6a4f; /* Color del texto principal */
-}
-
 /* Estilos del encabezado */
 header {
     background-color: #2d6a4f; /* Fondo verde oscuro */
-    color: #a3b18a; /* Color del texto del título */
+    color: #2d6a4f; /* Color del texto del título */
     padding: 0; /* Eliminamos el espacio de relleno */
     text-align: center; /* Centramos el texto */
 }
 
 h1 {
     font-family: "Cormorant Garamond", serif; /* Fuente para el título */
-    font-size: 56px; /* Tamaño de fuente más grande */
+    font-weight: 300; /* Hacemos la tipografía más delgada */
+    font-size: 44px; /* Tamaño de fuente un poco más pequeño */
     margin: 0; /* Eliminamos el margen para que el título se pegue a los bordes */
     padding: 20px; /* Añadimos un poco de espacio alrededor del título */
+    color: #2d6a4f; /* Color del texto */
 }
 
 nav ul {
@@ -28,56 +23,27 @@ nav ul {
 nav ul li {
     display: inline-block; /* Mostramos los elementos de la lista en línea */
     margin-right: 20px; /* Añadimos espacio entre los elementos */
+    background-color: #2d6a4f; /* Color de fondo inicial de las pestañas */
+    padding: 10px 20px; /* Añadimos relleno a las pestañas */
+    border-radius: 10px; /* Redondeamos los bordes de las pestañas */
+    transition: all 0.3s ease-in-out; /* Transición suave de todos los cambios */
 }
 
 nav ul li a {
     color: #a3b18a; /* Color del texto */
     font-size: 18px; /* Tamaño de fuente */
     text-decoration: none; /* Quitamos el subrayado */
-    transition: color 0.3s ease-in-out; /* Transición suave del color */
 }
 
-nav ul li a:hover {
-    color: #6e996f; /* Cambiamos el color al pasar el cursor */
+nav ul li:hover {
+    background-color: #40916c; /* Color de fondo al pasar el cursor */
+    transform: scale(1.05); /* Agrandamos un poco al pasar el cursor */
 }
 
 /* Estilos de la parte inferior de la página */
 footer {
     background-color: transparent; /* Fondo transparente */
-    color: #6e996f; /* Color del texto con tono más oscuro */
+    color: #2d6a4f; /* Color del texto */
     padding: 20px;
     text-align: center; /* Centramos el texto */
-}
-
-/* Estilos de las obras de arte */
-.artwork {
-    text-align: center; /* Centramos el contenido */
-    margin-top: 50px; /* Añadimos un margen superior para separarlo del contenido anterior */
-}
-
-.artwork img {
-    max-width: 100%;
-    height: auto;
-    opacity: 0.8; /* Opacidad reducida */
-    transition: opacity 0.3s ease-in-out;
-}
-
-.artwork img:hover {
-    opacity: 1; /* Opacidad completa al pasar el cursor */
-}
-
-.artwork-description {
-    margin-top: 20px; /* Espacio entre la imagen y la descripción */
-}
-
-.artwork-description h2 {
-    color: #2d6a4f; /* Color del título */
-}
-
-.artwork-description p {
-    color: #6e996f; /* Color del texto con tono más oscuro */
-}
-
-.artwork-description a {
-    color: #40916c; /* Color del enlace */
 }
