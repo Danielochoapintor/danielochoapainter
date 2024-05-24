@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Ochoa - ppPainter</title>
+    <title>Daniel Ochoa - Painter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Daniel Ochoa</h1>
+    <h1>Daniel oOchoa</h1>
     <nav>
         <ul>
             <li><a href="indexingles.html">Store</a></li>
