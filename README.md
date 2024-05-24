@@ -12,7 +12,7 @@
     <h1>Daniel Ochoa</h1>
     <nav>
         <ul>
-            <li><a href="indexingles.html">Store</a></li>
+            <li><a href="README.md">Store</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -27,7 +27,7 @@
 
 <footer>
     <p>© 2024 Daniel Ochoa - Painter</p>
-    <p><a href="indexingles.html">Store</a> | <a href="contact.html">Contact</a></p>
+    <p><a href="README.md">Store</a> | <a href="contact.html">Contact</a></p>
     <blockquote>
         “It's the spectator, and not life, that art really mirrors.”<br>
         ― Oscar Wilde
