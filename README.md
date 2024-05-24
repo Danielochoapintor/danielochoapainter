@@ -12,7 +12,7 @@
     <h1>Daniel oOchoa</h1>
     <nav>
         <ul>
-            <li><a href="indexingles.html">Store</a></li>
+            <li><a href="README.md">Store</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
