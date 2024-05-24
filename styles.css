@@ -1,7 +1,8 @@
 /* Estilos generales */
 body {
-    background-color: #b7e4c7; /* Color de fondo para toda la página */
+    background-color: #eef6f1; /* Color de fondo ligeramente desaturado */
     font-family: "Roboto", sans-serif; /* Fuente para el texto */
+    color: #2d6a4f; /* Color del texto principal */
 }
 
 /* Estilos del encabezado */
@@ -14,15 +15,36 @@ header {
 
 h1 {
     font-family: "Cormorant Garamond", serif; /* Fuente para el título */
-    font-size: 48px; /* Tamaño de fuente más grande */
+    font-size: 56px; /* Tamaño de fuente más grande */
     margin: 0; /* Eliminamos el margen para que el título se pegue a los bordes */
     padding: 20px; /* Añadimos un poco de espacio alrededor del título */
+}
+
+nav ul {
+    list-style-type: none; /* Quitamos los puntos de la lista */
+    padding: 0; /* Quitamos el relleno de la lista */
+}
+
+nav ul li {
+    display: inline-block; /* Mostramos los elementos de la lista en línea */
+    margin-right: 20px; /* Añadimos espacio entre los elementos */
+}
+
+nav ul li a {
+    color: #a3b18a; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    text-decoration: none; /* Quitamos el subrayado */
+    transition: color 0.3s ease-in-out; /* Transición suave del color */
+}
+
+nav ul li a:hover {
+    color: #6e996f; /* Cambiamos el color al pasar el cursor */
 }
 
 /* Estilos de la parte inferior de la página */
 footer {
     background-color: transparent; /* Fondo transparente */
-    color: rgba(45, 106, 79, 0.8); /* Color del texto con opacidad */
+    color: #6e996f; /* Color del texto con tono más oscuro */
     padding: 20px;
     text-align: center; /* Centramos el texto */
 }
@@ -53,7 +75,7 @@ footer {
 }
 
 .artwork-description p {
-    color: rgba(45, 106, 79, 0.8); /* Color del texto con opacidad */
+    color: #6e996f; /* Color del texto con tono más oscuro */
 }
 
 .artwork-description a {
